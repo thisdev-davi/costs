@@ -2,7 +2,7 @@ function NewProject() {
 
     return(
         <div>
-            <h1>NewProject</h1>
+            <h1>New Project</h1>
         </div>
     )
 }
