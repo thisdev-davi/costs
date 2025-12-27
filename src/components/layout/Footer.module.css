@@ -1,0 +1,37 @@
+.footer{
+    background-color: #204749;
+    color: #FFFFFF;
+    padding: 4.5em;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer p {
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.social_list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.social_list li {
+    margin: 0 0 0 1.5em;
+    transition: all 0.3s ease-in-out;
+}
+
+.social_list svg{
+    font-size: 1.5rem;
+    display: block;
+}
+
+.social_list li:hover {
+    color: #58C411;
+    cursor: pointer;
+    transform: translateY(-5px);
+}
