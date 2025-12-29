@@ -2,12 +2,14 @@
     display: flex;
     justify-content: space-between;
 
-    padding: 1em;
+    padding: 2em 1em;
     border-bottom: 1px solid #7c7c8a68;
+    align-items: center;
 }
 
 .logo{
     width: 50px;
+    display: block;
 }
 
 .list {
@@ -17,17 +19,26 @@
     gap: 30px;
 }
 
-.item {
-    margin-right: 1em;
-}
-
 .item a {
+    display: inline-block;
     text-decoration: none;
-    color: #4C5267;
-    padding: 8px 20px;
-    border-radius: 16px;
+    color: #244C4E;
+    padding: 6px 18px;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
 }
 
 .item a:hover {
     background-color: #f1f5f9;
+}
+
+.btn_destaque a {
+    background-color: #9EEA6C;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn_destaque a:hover{
+    background-color: #244C4E;
+    color: #9EEA6C;
+    transform: none;
 }

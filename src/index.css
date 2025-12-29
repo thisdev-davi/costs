@@ -10,6 +10,7 @@ html, body, #root {
 }
 
 h1 {
+  font-family: "Fustat", sans-serif;
   font-weight: 600;
   font-size: 64px;
 
@@ -19,6 +20,7 @@ h1 {
 }
 
 h2 {
+  font-family: "Fustat", sans-serif;
   font-weight: 600;
   font-size: 32px;
 
@@ -28,8 +30,13 @@ h2 {
 
 p {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
 
   color: #4C5267;
   line-height: 1.6;
+}
+
+a {
+  font-family: "Fustat", sans-serif;
+  font-weight: 600;
 }
