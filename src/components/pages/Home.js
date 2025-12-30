@@ -1,5 +1,5 @@
 import styles from "./Home.module.css"
-import savings from "../../img/saving.svg"
+import savings from "../../img/saving-costs.svg"
 import LinkButton from "../layout/LinkButton"
 import { FaArrowCircleRight } from "react-icons/fa";
 

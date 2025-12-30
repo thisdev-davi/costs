@@ -13,7 +13,7 @@ function NavBar() {
                     <img className={styles.logo} src={logo} alt="Costs"></img>
                 </Link>
                 <ul className={styles.list}>
-                    <li class={styles.item}>
+                    <li className={styles.item}>
                         <Link to="/">Home</Link>
                     </li>
                     <li className={styles.item}>
