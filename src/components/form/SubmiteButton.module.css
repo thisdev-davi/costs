@@ -1,0 +1,26 @@
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    
+    border: none;
+    cursor: pointer;
+    font: inherit;
+    outline: none;
+    line-height: normal;
+    appearance: none;
+
+    background-color: #9EEA6C;
+    color: #244C4E;
+    text-decoration: none;
+    padding: 10px 22px;
+    border-radius: 20px;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover{
+    background-color: #244C4E;
+    color: #9EEA6C;
+}
