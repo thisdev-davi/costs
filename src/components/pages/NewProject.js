@@ -6,8 +6,8 @@ function NewProject() {
     return(
         <div className={styles.newproject_container}>
             <h1>Criar Projeto</h1>
-            <p>Crie seu projeto para depois adicionar os serviços</p>
-            <ProjectForm btnText="Criar Projeto" />
+            <p>Crie seu projet para começar a planejar seu evento. Após a criação, você poderá gerenciar todos os seus serviços.</p>
+            <ProjectForm btnText="Criar     Projeto" />
         </div>
     )
 }
