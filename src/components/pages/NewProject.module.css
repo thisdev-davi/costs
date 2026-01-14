@@ -1,7 +1,13 @@
 .newproject_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 3em 0; /* Apenas padding vertical */
+    align-self: center; /* Adicionado para centralização vertical */
+}
+
+.project_content {
     width: 450px;
-    margin: 0 auto;
-    padding: 3em;
 }
 
 .newproject_container h1{

@@ -7,7 +7,7 @@
 }
 
 .min-height {
-    min-height: 75vh;
+    flex: 1;
 }
 
 .start {
