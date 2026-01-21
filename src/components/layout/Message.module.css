@@ -1,17 +1,25 @@
- .message {
-    width: 100%;
-    padding: 1em;
-    border: 1px solid #000;
-    margin: 0 auto;
-    text-align: center;
-    margin-bottom: 2em;
-    border-radius: 5px;
-}
+    .message {
+        width: 100%;
+        padding: 2em;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 2em;
+        border-radius: 16px;
+        border: 2px solid #204749;
+    }
 
-.succes {
+    .success {
+        background-color: #c2f0a4;
+    }
 
-}
-
-.erros {
+    .success p {
+        color: #204749;
+    }
     
-}
+    .error {
+        background-color: #ff464646;
+    }
+
+    .error p {
+        color: #204749;
+    }

@@ -1,24 +1,13 @@
 {
   "projects": [
     {
-      "id": "dc5b",
+      "id": "f4cb",
       "name": "Teste",
-      "budget": "5000",
       "category": {
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": 0,
-      "services": []
-    },
-    {
-      "id": "0f0b",
-      "name": "Teste2",
-      "budget": "200",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
+      "budget": "22222",
       "cost": 0,
       "services": []
     }
