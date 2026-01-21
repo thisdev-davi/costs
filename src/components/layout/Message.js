@@ -22,7 +22,7 @@ function Message({type, msg}) {
     return (
         < >
             {visible && (
-                <div className={`${styles.message} ${styles[type]}`}>{msg}</div>
+                <div className={`${styles.message} ${styles[type]}`}><p>{msg}</p></div>
             )
             }
         </>

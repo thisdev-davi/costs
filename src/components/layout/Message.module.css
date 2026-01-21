@@ -1,25 +1,24 @@
     .message {
-        width: 100%;
-        padding: 2em;
-        margin: 0 auto;
+        width: fit-content;
+        min-width: 300px;
+        padding: 1em 3em;
+        margin: 0 auto 2em auto;
         text-align: center;
-        margin-bottom: 2em;
         border-radius: 16px;
-        border: 2px solid #204749;
+    
+        background-color: #f0f1eb;
+        display: block;
     }
 
-    .success {
-        background-color: #c2f0a4;
+    .message p {
+        margin: 0;
+        color: #204749;
     }
 
     .success p {
-        color: #204749;
-    }
-    
-    .error {
-        background-color: #ff464646;
+        color: #58C411;
     }
 
     .error p {
-        color: #204749;
+        color: #ff4646;
     }
