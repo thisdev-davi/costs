@@ -1,0 +1,79 @@
+.project_card {
+    background-color: #f0f1eb;
+    border-radius: 20px;
+    width: 24%;
+    overflow: hidden;
+    margin: 0.5%;
+    padding-bottom: 1em;
+}
+
+.project_card h4 {
+    color: #204749;
+    background-color: #9EEA6C;
+    padding: 0.8em;
+    margin-bottom: 1.3em;
+    font-size: 1.3em;
+    font-weight: 600;
+    width: 100%;
+}
+
+.project_card p,
+.project_card .category_text,
+.project_card .project_card_actions {
+    padding: 0 1.2em;
+}
+
+.project_card p {
+    color: #204749;
+    margin-bottom: 1em;
+}
+
+.project_card p span {
+    color: #204749;
+}
+
+.category_text {
+    display: flex;
+    align-items: center;
+}
+
+.category_text span {
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin-right: 5px;
+}
+
+.category_text .infra {
+    background-color: #204749;
+}
+
+.category_text .desenvolvimento {
+    background-color: #204749;
+}
+
+.category_text .design {
+    background-color: #204749;
+}
+
+.category_text .planejamento {
+    background-color: #204749;
+}
+
+.project_card_actions {
+    margin-top: 1.2em;
+    display: flex;
+    align-items: ce;
+}
+
+.project_card_actions a,
+.project_card_actions button {
+    text-decoration: none;
+    border: none;
+    color: #204749;
+    margin-right: 1em;
+    align-items: center;
+    justify-content: center;
+}
