@@ -1,13 +1,7 @@
 {
   "projects": [
     {
-      "id": "f4cb",
-      "name": "Teste",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "budget": "22222",
+      "id": "8dad",
       "cost": 0,
       "services": []
     }
