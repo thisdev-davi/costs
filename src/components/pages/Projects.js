@@ -1,12 +1,10 @@
 import Message from "../layout/Message"
 import { useLocation } from "react-router-dom"
 import Container from "../layout/Container"
-import LinkButton from "../layout/LinkButton"
 import ProjectCard from "../project/ProjectCard"
 import { useState, useEffect } from "react"
 
 import styles from "./Projects.module.css"
-import { FaArrowCircleRight } from "react-icons/fa"
 
 function Projects() {
 
@@ -34,7 +32,6 @@ function Projects() {
         <div className={styles.projects_container}>
             <div className={styles.title_container}>
                 <h1>Meus Projetos</h1>
-                <LinkButton to="/newproject" text="Criar Projeto" icon={FaArrowCircleRight} />
             </div>
             {message && <Message msg={message} type="success" />}
             <Container customClass="start">
