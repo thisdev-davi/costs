@@ -1,51 +1,41 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-import Home from "./components/pages/Home"
-import Company from "./components/pages/Company"
-import Contact from "./components/pages/Contact"
-import NewProject from "./components/pages/NewProject"
-import Projects from "./components/pages/Projects"
+import Home from './components/pages/Home';
+import Company from './components/pages/Company';
+import Contact from './components/pages/Contact';
+import NewProject from './components/pages/NewProject';
+import Projects from './components/pages/Projects';
 
-import Container from "./components/layout/Container"
-import NavBar from "./components/layout/Navbar"
-import Footer from "./components/layout/Footer"
+import Container from './components/layout/Container';
+import NavBar from './components/layout/Navbar';
+import Footer from './components/layout/Footer';
 
 function App() {
-
   return (
-
     <Router>
-
       <div className="router_wrapper">
-
         <NavBar />
 
         <Container customClass="min-height">
-
           <Routes>
+            <Route path="/" element={<Home />} />
 
-            <Route path="/" element={<Home />}/>
+            <Route path="/projects" element={<Projects />} />
 
-            <Route path="/projects" element={<Projects />}/>
+            <Route path="/company" element={<Company />} />
 
-            <Route path="/company" element={<Company />}/>
-
-            <Route path="/contact" element={<Contact />}/>
+            <Route path="/contact" element={<Contact />} />
 
             <Route path="/newproject" element={<NewProject />} />
 
+            <Route path="/projet/:id" />
           </Routes>
-
         </Container>
 
         <Footer />
-
       </div>
-
     </Router>
-
   );
-
 }
 
 export default App;

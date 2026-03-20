@@ -1,15 +1,15 @@
 .newproject_container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding: 3em 0; /* Apenas padding vertical */
-    align-self: center; /* Adicionado para centralização vertical */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 3em 0; /* Apenas padding vertical */
+  align-self: center; /* Adicionado para centralização vertical */
 }
 
 .project_content {
-    width: 450px;
+  width: 450px;
 }
 
-.newproject_container h1{
-    margin-bottom: 0.4em;
+.newproject_container h1 {
+  margin-bottom: 0.4em;
 }

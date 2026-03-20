@@ -1,101 +1,101 @@
 .project_card {
-    background-color: #FFFF;
-    border: solid 1px #7c7c8a68;
-    border-radius: 20px;
-    width: 24%;
-    overflow: hidden;
-    margin: 0.5%;
-    padding-bottom: 1em;
+  background-color: #ffff;
+  border: solid 1px #7c7c8a68;
+  border-radius: 20px;
+  width: 24%;
+  overflow: hidden;
+  margin: 0.5%;
+  padding-bottom: 1em;
 }
 
 .project_card h4 {
-    color: #204749;
-    background-color: #9EEA6C;
-    padding: 0.8em;
-    margin-bottom: 1.3em;
-    font-size: 1.3em;
-    font-weight: 600;
-    width: 100%;
-    font-family: "Fustat", sans-serif;
+  color: #204749;
+  background-color: #9eea6c;
+  padding: 0.8em;
+  margin-bottom: 1.3em;
+  font-size: 1.3em;
+  font-weight: 600;
+  width: 100%;
+  font-family: 'Fustat', sans-serif;
 }
 
 .project_card p,
 .project_card .category_text,
 .project_card .project_card_actions {
-    padding: 0 1.2em;
+  padding: 0 1.2em;
 }
 
 .project_card p {
-    color: #204749;
-    margin-bottom: 1em;
+  color: #204749;
+  margin-bottom: 1em;
 }
 
 .project_card p span {
-    color: #204749;
+  color: #204749;
 }
 
 .category_text {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .category_text span {
-    display: block;
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    margin-right: 10px;
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 10px;
 }
 
 .category_text .infra {
-    background-color: #6ce9f0b5;
+  background-color: #6ce9f0b5;
 }
 
 .category_text .desenvolvimento {
-    background-color: #756cf0b5;
+  background-color: #756cf0b5;
 }
 
 .category_text .design {
-    background-color: #f06cf0b5;
+  background-color: #f06cf0b5;
 }
 
 .category_text .planejamento {
-    background-color: #f0e96cb5;
+  background-color: #f0e96cb5;
 }
 
 .project_card_actions {
-    margin-top: 1.2em;
-    display: flex;
+  margin-top: 1.2em;
+  display: flex;
 }
 
 .project_card_actions a,
 .project_card_actions button {
-    display: inline-flex;
-    margin-bottom: 1.2em;
-    align-items: center;
-    justify-content: center;
-    background-color: #FFFF;
-    border: solid 1px #7c7c8a68;
-    color: #244C4E;
-    padding: 0.5em 1em;
-    border-radius: 20px;
-    margin-right: 1em;
-    text-decoration: none;
-    cursor: pointer;
-    font-family: inherit;
-    font-size: 1em;       
-    font-weight: 500;
+  display: inline-flex;
+  margin-bottom: 1.2em;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffff;
+  border: solid 1px #7c7c8a68;
+  color: #244c4e;
+  padding: 0.5em 1em;
+  border-radius: 20px;
+  margin-right: 1em;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1em;
+  font-weight: 500;
 
-    transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .project_card_actions a:hover,
 .project_card_actions button:hover {
-    background-color: #244C4E;
-    color: #9EEA6C;
-    border-color: #244C4E;
+  background-color: #244c4e;
+  color: #9eea6c;
+  border-color: #244c4e;
 }
 
 .project_card_actions svg {
-    margin-right: 0.5em;
+  margin-right: 0.5em;
 }

@@ -1,23 +1,23 @@
 .form_control {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 1em;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
 }
 
 .form_control label {
-    margin-bottom: 0.4em;
+  margin-bottom: 0.4em;
 
-    font-weight: 400;
-    color: #204749;
+  font-weight: 400;
+  color: #204749;
 }
 
 .form_control input {
-    padding: 1em;
-    border-radius: 0.4em;
-    border: none;
-    background-color: #f0f1eb;
+  padding: 1em;
+  border-radius: 0.4em;
+  border: none;
+  background-color: #f0f1eb;
 }
 
 .form_control input::placeholder {
-    color: #4C5267;
+  color: #4c5267;
 }

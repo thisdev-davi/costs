@@ -1,23 +1,23 @@
-    .message {
-        width: fit-content;
-        min-width: 300px;
-        padding: 1em 3em;
-        margin: 0 auto 2em auto;
-        text-align: center;
-        border-radius: 16px;
-        background-color: #f0f1eb;
-        display: block;
-    }
+.message {
+  width: fit-content;
+  min-width: 300px;
+  padding: 1em 3em;
+  margin: 0 auto 2em auto;
+  text-align: center;
+  border-radius: 16px;
+  background-color: #f0f1eb;
+  display: block;
+}
 
-    .message p {
-        margin: 0;
-        color: #204749;
-    }
+.message p {
+  margin: 0;
+  color: #204749;
+}
 
-    .success p {
-        color: #58C411;
-    }
+.success p {
+  color: #58c411;
+}
 
-    .error p {
-        color: #ff4646;
-    }
+.error p {
+  color: #ff4646;
+}

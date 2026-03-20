@@ -1,44 +1,44 @@
 .navbar {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 
-    padding: 2em 1em;
-    border-bottom: 1px solid #7c7c8a68;
-    align-items: center;
+  padding: 2em 1em;
+  border-bottom: 1px solid #7c7c8a68;
+  align-items: center;
 }
 
-.logo{
-    width: 50px;
-    display: block;
+.logo {
+  width: 50px;
+  display: block;
 }
 
 .list {
-    display: flex;
-    list-style: none;
-    align-items: center;
-    gap: 30px;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 30px;
 }
 
 .item a {
-    display: inline-block;
-    text-decoration: none;
-    color: #244C4E;
-    padding: 6px 18px;
-    border-radius: 20px;
-    transition: all 0.3s ease-in-out;
+  display: inline-block;
+  text-decoration: none;
+  color: #244c4e;
+  padding: 6px 18px;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
 }
 
 .item a:hover {
-    background-color: #f1f5f9;
+  background-color: #f1f5f9;
 }
 
 .btn_destaque a {
-    background-color: #9EEA6C;
-    transition: all 0.3s ease-in-out;
+  background-color: #9eea6c;
+  transition: all 0.3s ease-in-out;
 }
 
-.btn_destaque a:hover{
-    background-color: #244C4E;
-    color: #9EEA6C;
-    transform: none;
+.btn_destaque a:hover {
+  background-color: #244c4e;
+  color: #9eea6c;
+  transform: none;
 }

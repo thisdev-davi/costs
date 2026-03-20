@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import "@fontsource/fustat";
+import '@fontsource/fustat';
 import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
