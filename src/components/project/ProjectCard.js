@@ -3,6 +3,10 @@ import { Link } from "react-router-dom"
 import { FaPencilAlt, FaTrash } from "react-icons/fa"
 
 function ProjectCard({ id, name, budget, category, handleRemove }) {
+    const remove = (e) => {
+        e.preventDefault()
+        handleRemove(id)
+    }
 
     return (
         <div className={styles.project_card}>
@@ -17,8 +21,8 @@ function ProjectCard({ id, name, budget, category, handleRemove }) {
                 <Link>
                     <FaPencilAlt /> Editar
                 </Link>
-                <button>
-                    <FaTrash /> Excluir
+                <button onClick={remove}>
+                    <FaTrash/> Excluir
                 </button>
             </div>
         </div>
